@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registro de Formulario Responsivo</title>
+</head>
+<body>
+    <section class="container">
+        <header>Formulario de Registro</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Nome Inteiro</label>
+                <input type="text" placeholder="Coloque seu nome inteiro" required>
+            </div>
+
+            <div class="input-box">
+                <label>Email</label>
+                <input type="text" placeholder="Preencha Seu Email"required>
+            </div>
+            <div class="column">
+                <div class="input-box">
+                    <label>Numero de Telefone</label>
+                    <input type="number" placeholder="Coloque seu Telefone"required>
+                </div>
+                <div class="input-box">
+                    <label>Data de Nascimento</label>
+                    <input type="date" placeholder="Coloque sua data de Nascimento"required>
+                </div>
+            </div>
+            <div class="gender-box">
+                <h3>Sexo</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-masculino" name="gender" checked>
+                        <label for="check-masculino">Masculino</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-feminino" name="gender">
+                        <label for="check-feminino">Feminino</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender">
+                        <label for="check-other">Prefiro não Falar</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-box address">
+                <label>Endereço</label>
+                <input type="text" placeholder="Coloque seu Endereço"required>
+                <input type="text" placeholder="Coloque seu Endereço Linha 2"required>
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>Pais</option>
+                            <option>Brasil</option>
+                            <option>Russia</option>
+                            <option>Alemanha</option>
+                            <option>Estados Unidos</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Coloque sua Cidade"required>
+                </div>
+
+                <div class="column">
+                    <input type="text" placeholder="Coloque seu Estado"required>
+                    <input type="number" placeholder="Coloque seu Codigo Postal"required>
+                </div>
+            </div>
+
+            <button>Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
